@@ -1,0 +1,1 @@
+# rabbitmq-json-messaging-springboot
