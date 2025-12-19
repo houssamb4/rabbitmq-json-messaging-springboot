@@ -1,6 +1,6 @@
 package com.example.microservices.service;
 
-import com.example.microservices_messaging_producer.domain.User;
+import com.example.microservices.domain.User;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

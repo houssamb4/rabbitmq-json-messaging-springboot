@@ -1,8 +1,8 @@
 package com.example.microservices.controller;
 
 
-import com.example.microservices_messaging_producer.domain.User;
-import com.example.microservices_messaging_producer.service.ProducerService;
+import com.example.microservices.domain.User;
+import com.example.microservices.service.ProducerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
