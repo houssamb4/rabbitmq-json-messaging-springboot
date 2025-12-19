@@ -1,6 +1,6 @@
 package com.example.spring_rabbitmq_producer;
 
-import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -13,7 +13,7 @@ import java.util.UUID;
 public class MessagePublisher {
 
     @Autowired
-    private RabbitTemplate template;
+    private AmqpTemplate template;
 
     @PostMapping("/publish")
     public String publishMessage(@RequestBody CustomMessage message) {
